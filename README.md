@@ -1,20 +1,24 @@
-# VS Code Custom CSS Snippets
+# VS Code Custom CSS
 
-This repository aims to provide a shared list of CSS customizations of VS Code with the [vscode custom css extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css). This allows simpler sharing of custom themes and keeping multiple machines in sync.
+This repository aims to provide my personal VS Code CSS customisations using the [VS Code custom CSS extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css). This allows simpler sharing of custom themes and keeping multiple machines in sync.
 
 ## Usage
 
-1. Install the [vscode custom css extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
-2. Add links to css files to your settings
+1. Install the [VS Code custom CSS extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
+2. Install the [Fix VS Code checksums extension](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)
+3. Add links to CSS files to your settings
 
 ```json
 "vscode_custom_css.imports": [
-    "file:///local_css_files",
+    "file:///local_css_file",
     "https://global_css_file"
 ],
 ```
-
-3. Reload Custom css while connected to the Internet
+4. Run VS Code as an administrator
+5. Run `Reload Custom CSS and JS` command while connected to the internet
+6. Click the `Restart Visual Studio Code` button on the pop-up in the bottom-right
+7. Run `Fix Checksums: Apply` command to remove corrupt installation warning
+8. Close VS Code and continue to use normally (without administrator)
 
 ## Examples
 
