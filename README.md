@@ -1,10 +1,10 @@
 # VS Code Custom CSS Snippets
 
-This repository aims to provide a shared list of CSS customizations of VS Code with the [vscode custom css extension](github.com/be5invis/vscode-custom-css). This allows simpler sharing of custom themes and keeping multiple machines in sync.
+This repository aims to provide a shared list of CSS customizations of VS Code with the [vscode custom css extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css). This allows simpler sharing of custom themes and keeping multiple machines in sync.
 
 ## Usage
 
-1. Install the [vscode custom css extension](github.com/be5invis/vscode-custom-css)
+1. Install the [vscode custom css extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
 2. Add links to css files to your settings
 
 ```json
