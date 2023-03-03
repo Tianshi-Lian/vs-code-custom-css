@@ -13,6 +13,11 @@
     font-size: var(--font-size) !important;
 }
 
+.linux {
+    font-family: var(--font-family) !important;
+    font-size: var(--font-size) !important;
+}
+
 .monaco-scrollable-element>.shadow.top {
     box-shadow: none;
 }
